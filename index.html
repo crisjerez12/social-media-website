@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlutterFeed | Log In</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <header class="title-container flex-center">
+            <div>
+                <div class="icon">
+                    <img class="play" src="https://img.icons8.com/ios-filled/256/play--v1.png" alt="play">
+                    <p class="title-text">Flutter<span>Feed</span></p>
+                </div>
+                <p class="title-description">Where Connections Takes Flight!</p>
+            </div>
+        </header> 
+        <section class="login-part flex-align">
+            <div class="form-container form-part">
+                <div>
+                    <div class="icon">
+                        <h3 class="greetings-one">Hey, hello</h3>
+                        <img class="icon-src" src="https://img.icons8.com/emoji/256/waving-hand-emoji.png" alt="waving">
+                    </div>
+                    <div class="instruction">Enter the information you entered while registering</div>
+                </div>
+                <form method="post" action="register.html" class="form-container">
+                    <label class="block input-style" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" for="email">Email</label><input class="block input-height border input" id="email" type="email" required>
+                    <label class="block input-style" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" for="password">Password</label><input class="block input-height border input" id="password" type="password" required>
+                    <div class="placing">
+                        <div class="remember">
+                            <input class="checkbox" id="checkbox" type="checkbox">
+                            <label for="checkbox">Remember me</label>
+                        </div>
+                        <a class="remember flex-center" href="forgot.html">Forgot password?</a>
+                    </div>
+                    <input class="block input-height submit no-border button" type="submit" value="Log In">
+                </form>
+                <div class="width">
+                    <hr>
+                    <p class="no-account block">don't have any account yet?</p>
+                    <a href="register.html"><button class="block input-height register button">Register</button></a>  
+                </div>            
+            </div>
+        </section>
+    </main>
+</body>
+</html>

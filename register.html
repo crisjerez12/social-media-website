@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlutterFeed | Register</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="stylesheet" href="index.css">
+</head>
+</head>
+<body>
+    <main>
+        <section class="login-part flex-align">
+            <div class="form-container form-part">
+                <div class="width">
+                    <a href="index.html"><button class="block input-height register button">Go back to Log In</button></a>  
+                </div>  
+                <div>
+                    <div class="icon">
+                        <h3 class="greetings-one">Hello, friend!</h3>
+                        <img class="icon-src" src="https://img.icons8.com/emoji/256/waving-hand-emoji.png" alt="waving">
+                    </div>
+                    <div class="instruction">Enter all your informations below</div>
+                </div>
+                <form method="post" action="index.html" class="form-container">
+                    <label class="block input-style" pattern="(?=.*[a-z])(?=.*[A-Z]).{2,}" for="email">firstname</label><input class="block input-height border input" id="firstName" type="text" required>
+                    <label class="block input-style" pattern="(?=.*[a-z])(?=.*[A-Z]).{2,}" for="email">Lastname</label><input class="block input-height border input" id="lastName" type="text" required>
+                    <label class="block input-style" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" for="email">Email</label><input class="block input-height border input" id="email" type="email" required>
+                    <label class="block input-style" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" for="password">Password</label><input class="block input-height border input" id="password" type="password" required>
+                    <input href="index.html" class="block input-height submit no-border button" type="submit" value="Register">
+                </form>
+                          
+            </div>
+        </section>
+        <header class="title-container flex-center">
+            <div>
+                <div class="icon">
+                    <img class="play" src="https://img.icons8.com/ios-filled/256/play--v1.png" alt="play">
+                    <p class="title-text">Flutter<span>Feed</span></p>
+                </div>
+                <p class="title-description">Where Connections Takes Flight!</p>
+            </div>
+        </header> 
+    </main>
+    
+</body>
+</html>
